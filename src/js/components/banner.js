@@ -119,7 +119,6 @@ export default class Banner {
             anchors.setAttribute('href', 'javascript:void(0);');
             anchors.innerHTML = svgImage.outerHTML;
 
-
             slideDivContent.append(mainImage, anchors);
 
             const titleDiv = document.createElement('p');
@@ -127,7 +126,6 @@ export default class Banner {
             titleDiv.style.cssText = `
             font-size: 15px;
             font-weight: bold;
-            text-center: center;
             `
             titleDiv.innerText = title;
             slideDiv.append(titleDiv);
@@ -193,6 +191,7 @@ export default class Banner {
     contentSection.innerHTML = `
     <section class="bannersection-slider buyingpage fold">
       <div class="slider-banner-container">
+      <h2 class="main-title">Features, tips and tricks for experienced hands and newcomers alike</h2>
       ${sliderHtml}
     </section>
     `
@@ -224,6 +223,7 @@ export default class Banner {
       {
         breakpoint: 480,
         settings: {
+          arrows: false,
           slidesToShow: 1,
           slidesToScroll: 1
         }

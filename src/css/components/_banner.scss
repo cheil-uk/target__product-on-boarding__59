@@ -24,7 +24,7 @@
 
   &.buyingpage {
     margin-bottom: 40px;
-    margin-top: 40px;
+    margin-top: 20px;
 
     @media screen and (max-width: 535px) {
       overflow: hidden;
@@ -95,7 +95,7 @@
 }
 
 .slick-dots {
-  bottom: -50px !important;
+  bottom: -40px !important;
 
   li {
     width: 15px !important;
@@ -128,8 +128,12 @@
 
 .slick-prev {
   left: 200px !important;
+
   @media screen and (max-width: 1024px) {
   left: 90px !important;
+  }
+  @media screen and (max-width: 500px) {
+  left: 75px !important;
   }
   @media screen and (max-width: 425px) {
   left: 50px !important;
@@ -138,11 +142,15 @@
 
 .slick-next {
   right: 200px !important;
+
   @media screen and (max-width: 1024px) {
-      left: 90px !important;
-    }
+  right: 90px !important;
+  }
+  @media screen and (max-width: 500px) {
+  right: 75px !important;
+  }
   @media screen and (max-width: 425px) {
-    left: 50px !important;
+  right: 50px !important;
   }
 }
 
@@ -179,4 +187,16 @@
 .slick-list {
   width: 60%;
   margin: 0 auto !important;
+}
+
+.slide-title {
+  text-align: center;
+}
+
+.main-title {
+  font-family: 'SamsungOne',arial, sans-serif;
+  font-size: 3.1vw;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px 5em;
 }
