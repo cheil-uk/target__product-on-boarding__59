@@ -1,0 +1,75 @@
+{
+ "switchingAndroid" : {
+  "key" : 1,
+  "title" : "Switching from Android",
+  "image" : "//images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-s22/mys22/android-switching.png",
+  "imageAlt" : "1. A Galaxy S22 Ultra showing a colourful pattern on the screen is shown with a play button on top of the overly to show customers they can watch a video to show them how to switch from Android.",
+  "playSvg" : "//images.samsung.com/is/content/samsung/assets/uk/smartphones/galaxy-s22/mys22/play.svg",
+  "youTubeVideo" : "https://www.youtube.com/embed/5PfZOghqG4E"
+ },
+
+ "switchingIOS" : {
+  "key" : 2,
+  "title" : "Switching from IOS",
+  "image" : "//images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-s22/mys22/ios-switching.png",
+  "imageAlt" : "1. A Galaxy S22 Ultra showing a colourful pattern on the screen is shown with a play button on top of the overly to show customers they can watch a video to show them how to switch from Android.",
+  "playSvg" : "//images.samsung.com/is/content/samsung/assets/uk/smartphones/galaxy-s22/mys22/play.svg",
+  "youTubeVideo" : "https://www.youtube.com/embed/l9jTXRx2AYA"
+ },
+ "penTricks" : {
+  "key" : 3,
+  "title" : "S Pen Tips & Tricks",
+  "image" : "//images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-s22/mys22/spen.png",
+  "imageAlt" : "1. A Galaxy S22 Ultra showing a colourful pattern on the screen is shown with a play button on top of the overly to show customers they can watch a video to show them how to switch from Android.",
+  "playSvg" : "//images.samsung.com/is/content/samsung/assets/uk/smartphones/galaxy-s22/mys22/play.svg",
+  "youTubeVideo" : "https://youtube.com/embed/KD5ahn-GRhI"
+ },
+  "cameraTricks" : {
+  "key" : 4,
+  "title" : "Camera Tips & Tricks",
+  "image" : "//images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-s22/mys22/camera.png",
+  "imageAlt" : "1. A Galaxy S22 Ultra showing a colourful pattern on the screen is shown with a play button on top of the overly to show customers they can watch a video to show them how to switch from Android.",
+  "playSvg" : "//images.samsung.com/is/content/samsung/assets/uk/smartphones/galaxy-s22/mys22/play.svg",
+  "youTubeVideo" : "https://youtube.com/embed/x1fXSyptfpg"
+ },
+ "fastCharging" : {
+  "key" : 5,
+  "title" : "Super Fast Charging",
+  "image" : "//images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-s22/mys22/Super-fast-charging.png",
+  "imageAlt" : "1.A Galaxy S22 Ultra showing a colourful pattern on the screen is shown with a play button on top of the overly to show customers they can watch a video to show them how to switch from Android.",
+  "playSvg" : "//images.samsung.com/is/content/samsung/assets/uk/smartphones/galaxy-s22/mys22/play.svg",
+  "youTubeVideo" : "https://youtube.com/embed/13HfYscULl0"
+ },
+  "penCreation" : {
+  "key" : 6,
+  "title" : "S Pen Creation",
+  "image" : "//images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-s22/mys22/SPen-creation.png",
+  "imageAlt" : "1.A Galaxy S22 Ultra showing a colourful pattern on the screen is shown with a play button on top of the overly to show customers they can watch a video to show them how to switch from Android.",
+  "playSvg" : "//images.samsung.com/is/content/samsung/assets/uk/smartphones/galaxy-s22/mys22/play.svg",
+  "youTubeVideo" : "https://youtube.com/embed/SakmNdlcTJY"
+ },
+  "screenProtector" : {
+  "key" : 7,
+  "title" : "How to apply Screen Protector",
+  "image" : "//images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-s22/mys22/screen-protector.png",
+  "imageAlt" : "1.A Galaxy S22 Ultra showing a colourful pattern on the screen is shown with a play button on top of the overly to show customers they can watch a video to show them how to switch from Android.",
+  "playSvg" : "//images.samsung.com/is/content/samsung/assets/uk/smartphones/galaxy-s22/mys22/play.svg",
+  "youTubeVideo" : "https://youtube.com/embed/wksPGb2b5I8"
+ },
+  "officialUnboxing" : {
+  "key" : 8,
+  "title" : "Galaxy S22 Ultra: Official Unboxing",
+  "image" : "//images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-s22/mys22/unbox.png",
+  "imageAlt" : "1.A Galaxy S22 Ultra showing a colourful pattern on the screen is shown with a play button on top of the overly to show customers they can watch a video to show them how to switch from Android.",
+  "playSvg" : "//images.samsung.com/is/content/samsung/assets/uk/smartphones/galaxy-s22/mys22/play.svg",
+  "youTubeVideo" : "https://youtube.com/embed/DofO1kou9rA"
+ },
+ "officialUnboxings22" : {
+  "key" : 9,
+  "title" : "Galaxy S22 Ultra: Official Unboxing",
+  "image" : "//images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-s22/mys22/unbox.png",
+  "imageAlt" : "1.A Galaxy S22 Ultra showing a colourful pattern on the screen is shown with a play button on top of the overly to show customers they can watch a video to show them how to switch from Android.",
+  "playSvg" : "//images.samsung.com/is/content/samsung/assets/uk/smartphones/galaxy-s22/mys22/play.svg",
+  "youTubeVideo" : "https://youtube.com/embed/4sKJRUxJr_w"
+ }
+}

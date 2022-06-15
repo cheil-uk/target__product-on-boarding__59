@@ -1,0 +1,182 @@
+.samsung-upgrade__content__section_slider {
+  margin: 0 auto !important;
+}
+
+.bannersection-slider {
+  max-width: 1320px;
+  margin: 0 auto;
+  height: 400px;
+  margin-top: 60px;
+
+  @media screen and (max-width: 1023px) and (min-width: 768px) {
+    height: auto;
+    padding: 7.22222222vw 6.66666667vw 2.77777778vw 6.66666667vw;
+    padding-bottom: 40px;
+  }
+
+  @media screen and (max-width: 767px) {
+    padding: 0 36px;
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+
+
+  &.buyingpage {
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+    @media screen and (max-width: 535px) {
+      overflow: hidden;
+    }
+
+    @media only screen and (max-width: 768px) and (min-width: 535px) {
+      overflow: hidden;
+    }
+
+    @media only screen and (min-width: 769px) and (max-width: 1023px) {
+      overflow: hidden;
+    }
+
+    .bannerinner {
+      max-width: 100%;
+      padding-left: 64px;
+
+      @media screen and (max-width: 535px) {
+        overflow: visible;
+        padding-left: 0px;
+        flex-direction: column-reverse;
+      }
+
+      @media only screen and (max-width: 768px) and (min-width: 535px) {
+        overflow: visible;
+        padding-left: 0px;
+      }
+
+      @media only screen and (min-width: 769px) and (max-width: 1023px) {
+        overflow: visible;
+        padding-left: 0px;
+      }
+
+      .imagefull {
+        left: 50%;
+        top: 59px;
+
+        @media screen and (max-width: 535px) {
+          left: -323px;
+          top: 35px;
+        }
+
+        @media screen and (max-width: 768px) and (min-width: 563px) {
+          left: 0px;
+          top: 10px;
+        }
+
+        @media only screen and (min-width: 769px) and (max-width: 1023px) {
+          left: 0px;
+          top: 10px;
+        }
+      }
+    }
+  }
+}
+.hubble-price-bar-disclaimer-text {
+  padding: 10px;
+  p {
+    font-family: 'SamsungOne';
+    color: #666;
+    font-size: 13px;
+    line-height: 20px;
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}
+
+.slick-dots {
+  bottom: -50px !important;
+
+  li {
+    width: 15px !important;
+    height: 15px !important;
+    background-color: transparent;
+    border-radius: 100%;
+
+    border: 1px solid rgb(5, 5, 5);
+
+    button {
+      width: 18px;
+      height: 18px;
+      border-radius: 100%;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    &:hover {
+      background-color: lightgray;
+    }
+
+    &.slick-active {
+      background-color: #000000;
+      border: 1px solid #000000;
+    }
+  }
+}
+
+.slick-prev {
+  left: 200px !important;
+  @media screen and (max-width: 1024px) {
+  left: 90px !important;
+  }
+  @media screen and (max-width: 425px) {
+  left: 50px !important;
+  }
+}
+
+.slick-next {
+  right: 200px !important;
+  @media screen and (max-width: 1024px) {
+      left: 90px !important;
+    }
+  @media screen and (max-width: 425px) {
+    left: 50px !important;
+  }
+}
+
+.slick-prev::before {
+  content: '';
+  border: solid #000000;
+  border-top-width: medium;
+  border-right-width: medium;
+  border-bottom-width: medium;
+  border-left-width: medium;
+  font-size: 5px !important;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.slick-next::before {
+  content: '';
+  border: solid #000000;
+  border-top-width: medium;
+  border-right-width: medium;
+  border-bottom-width: medium;
+  font-size: 5px !important;
+  border-left-width: medium;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.slick-list {
+  width: 60%;
+  margin: 0 auto !important;
+}

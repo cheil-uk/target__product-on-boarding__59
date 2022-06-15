@@ -1,0 +1,136 @@
+.video-div-container {
+display: none;
+}
+
+.delivery-popup {
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    height: 100%;
+    z-index: 9999;
+
+    .delivery-popup__dimmed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #000;
+        opacity: 0.75;
+    }
+
+    .delivery-popup-wrap {
+        height: 100%;
+        padding: 30px;
+        text-align: center;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+
+        .delivery-popup-layer {
+            display: inline-block;
+            position: absolute;
+            max-width: 640px;
+            text-align: left;
+            vertical-align: middle;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            overflow: auto;
+            top: 50%;
+            left: 50%;
+            max-height: 100%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+
+            .delivery-popup-inner {
+                position: relative;
+                background: #fff;
+                border-radius: 0px;
+            }
+        }
+
+        .popup {
+            position: fixed;
+            width: 100%;
+        }
+
+        /*@media only screen and (max-width: 425px) {
+            .popup {
+                height: 100vh;
+            }
+        }*/
+        .popup-inner {
+            position: relative;
+            padding: 0px;
+            max-width: 640px;
+            background-color: white;
+            border-radius: 25px;
+
+            @media only screen and (max-width: 425px) {
+                /*padding: 32px 15px;*/
+                overflow: auto;
+            }
+
+
+            .close-btn {
+                position: absolute;
+                top: 16px;
+                right: 16px;
+                background: none;
+                border: none;
+                cursor: pointer;
+
+                &::before {
+                    display: block;
+                    width: 20px;
+                    height: 25px;
+                    background-size: 100% auto;
+                    content: '';
+                    background: url(https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/svg-layer-close.svg) no-repeat 0 0;
+                }
+            }
+
+            .title {
+                font-size: 28px;
+                font-size: 3.646vw;
+                letter-spacing: 0.6px;
+                letter-spacing: 0.078vw;
+                font-family: 'SamsungSharpSans', arial, sans-serif;
+
+                @media only screen and (min-width: 768px) {
+                    font-size: 18px;
+                    font-size: 1.758vw;
+                    letter-spacing: 0.5px;
+                    letter-spacing: 0.035vw;
+                }
+
+                @media only screen and (min-width: 1440px) {
+                    font-size: 18px;
+                    letter-spacing: 0.5px;
+                }
+            }
+
+            .txt {
+                font-size: 26px;
+                font-size: 3.38542vw;
+                padding-bottom: 10px;
+
+                @media only screen and (min-width: 768px) {
+                    font-size: 16px;
+                    font-size: 1.563vw;
+                }
+
+                @media only screen and (min-width: 1440px) {
+                    font-size: 16px;
+                }
+            }
+        }
+
+
+
+
+
+    }
+}
