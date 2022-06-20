@@ -196,7 +196,14 @@
 .main-title {
   font-family: 'SamsungOne',arial, sans-serif;
   font-size: 35px;
+  @media screen and (max-width: 1027px) {
+      font-size: 25px;
+    }
   font-weight: bold;
   text-align: center;
   margin: 0px 5em;
+  @media screen and (max-width: 768px) {
+  margin: 0px 5em;
+  }
+
 }

@@ -266,7 +266,8 @@ export default class Banner {
       });
 
       button.addEventListener('click', (event) => {
-        popUpContent.openPopUp(event.path[3].children[2].children[2].attributes[0].value);
+        const path = event.path || (event.composedPath && event.composedPath());
+        popUpContent.openPopUp(path[3].children[2].children[2].attributes[0].value);
       })
 
     })

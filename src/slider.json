@@ -22,7 +22,7 @@
   "image" : "//images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-s22/mys22/spen.png",
   "imageAlt" : "1. A Galaxy S22 Ultra showing a colourful pattern on the screen is shown with a play button on top of the overly to show customers they can watch a video to show them how to switch from Android.",
   "playSvg" : "//images.samsung.com/is/content/samsung/assets/uk/smartphones/galaxy-s22/mys22/play.svg",
-  "youTubeVideo" : "https://youtube.com/embed/KD5ahn-GRhI"
+  "youTubeVideo" : "https://www.youtube.com/embed/KD5ahn-GRhI"
  },
   "cameraTricks" : {
   "key" : 4,
@@ -30,7 +30,7 @@
   "image" : "//images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-s22/mys22/camera.png",
   "imageAlt" : "1. A Galaxy S22 Ultra showing a colourful pattern on the screen is shown with a play button on top of the overly to show customers they can watch a video to show them how to switch from Android.",
   "playSvg" : "//images.samsung.com/is/content/samsung/assets/uk/smartphones/galaxy-s22/mys22/play.svg",
-  "youTubeVideo" : "https://youtube.com/embed/x1fXSyptfpg"
+  "youTubeVideo" : "https://www.youtube.com/embed/x1fXSyptfpg"
  },
  "fastCharging" : {
   "key" : 5,
@@ -38,7 +38,7 @@
   "image" : "//images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-s22/mys22/Super-fast-charging.png",
   "imageAlt" : "1.A Galaxy S22 Ultra showing a colourful pattern on the screen is shown with a play button on top of the overly to show customers they can watch a video to show them how to switch from Android.",
   "playSvg" : "//images.samsung.com/is/content/samsung/assets/uk/smartphones/galaxy-s22/mys22/play.svg",
-  "youTubeVideo" : "https://youtube.com/embed/13HfYscULl0"
+  "youTubeVideo" : "https://www.youtube.com/embed/13HfYscULl0"
  },
   "penCreation" : {
   "key" : 6,
@@ -46,7 +46,7 @@
   "image" : "//images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-s22/mys22/SPen-creation.png",
   "imageAlt" : "1.A Galaxy S22 Ultra showing a colourful pattern on the screen is shown with a play button on top of the overly to show customers they can watch a video to show them how to switch from Android.",
   "playSvg" : "//images.samsung.com/is/content/samsung/assets/uk/smartphones/galaxy-s22/mys22/play.svg",
-  "youTubeVideo" : "https://youtube.com/embed/SakmNdlcTJY"
+  "youTubeVideo" : "https://www.youtube.com/embed/SakmNdlcTJY"
  },
   "screenProtector" : {
   "key" : 7,
@@ -54,7 +54,7 @@
   "image" : "//images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-s22/mys22/screen-protector.png",
   "imageAlt" : "1.A Galaxy S22 Ultra showing a colourful pattern on the screen is shown with a play button on top of the overly to show customers they can watch a video to show them how to switch from Android.",
   "playSvg" : "//images.samsung.com/is/content/samsung/assets/uk/smartphones/galaxy-s22/mys22/play.svg",
-  "youTubeVideo" : "https://youtube.com/embed/wksPGb2b5I8"
+  "youTubeVideo" : "https://www.youtube.com/embed/wksPGb2b5I8"
  },
   "officialUnboxing" : {
   "key" : 8,
@@ -62,7 +62,7 @@
   "image" : "//images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-s22/mys22/unbox.png",
   "imageAlt" : "1.A Galaxy S22 Ultra showing a colourful pattern on the screen is shown with a play button on top of the overly to show customers they can watch a video to show them how to switch from Android.",
   "playSvg" : "//images.samsung.com/is/content/samsung/assets/uk/smartphones/galaxy-s22/mys22/play.svg",
-  "youTubeVideo" : "https://youtube.com/embed/DofO1kou9rA"
+  "youTubeVideo" : "https://www.youtube.com/embed/DofO1kou9rA"
  },
  "officialUnboxings22" : {
   "key" : 9,
@@ -70,6 +70,7 @@
   "image" : "//images.samsung.com/is/image/samsung/assets/uk/smartphones/galaxy-s22/mys22/unbox.png",
   "imageAlt" : "1.A Galaxy S22 Ultra showing a colourful pattern on the screen is shown with a play button on top of the overly to show customers they can watch a video to show them how to switch from Android.",
   "playSvg" : "//images.samsung.com/is/content/samsung/assets/uk/smartphones/galaxy-s22/mys22/play.svg",
-  "youTubeVideo" : "https://youtube.com/embed/4sKJRUxJr_w"
+  "youTubeVideo" : "https://www.youtube.com/embed/4sKJRUxJr_w"
  }
 }
+
