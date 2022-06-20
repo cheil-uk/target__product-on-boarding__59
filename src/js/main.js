@@ -42,14 +42,8 @@ cheillondon.targetBoilerplate = (function () {
 					const banner =  new Banner();
 					const url = window.location.pathname;
 
-					if (url.includes('/uk/smartphones/galaxy-s22/showroom/') || url.includes('/uk/smartphones/galaxy-s22-ultra/showroom/')) {
+					if (url.includes('/uk/smartphones/galaxy-s22-ultra/buy/')) {
 
-									banner.addSection();
-									banner.createSlider();
-									banner.showPopUp();
-									banner.addFooter();
-
-					} else {
 						const observer = new MutationObserver((mutations, obs) => {
 
 							const eleToLoad = document.querySelector("#content > div.hubble-feature-wrapper");
@@ -68,6 +62,13 @@ cheillondon.targetBoilerplate = (function () {
 							childList: true,
 							subtree: true
 						})
+
+					} else {
+
+							banner.addSection();
+							banner.createSlider();
+							banner.showPopUp();
+							banner.addFooter();
 					}
 
 					main.appendNewStyle();
