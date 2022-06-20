@@ -257,7 +257,7 @@ export default class Banner {
 
     allPlayButtons.forEach(button => {
 
-      this.tagging(button,
+      tagging(button,
       { "data-omni-type"  : "microsite",
         "data-omni"       : `uk:59:buy-page:video-play:on-boarding`,
         "ga-ac"           : "pd buying tool",
