@@ -1,6 +1,8 @@
 export default class PopUpContent {
   openPopUp(youTubeVideoUrl) {
 
+    // console.log(youTubeVideoUrl)
+
     const popupContent= `
             <div class="delivery-popup__dimmed"></div>
             <div class="delivery-popup-wrap">

@@ -39,32 +39,39 @@ cheillondon.targetBoilerplate = (function () {
 
 			setTimeout(function () {
 				if (window.$) {
-					console.log('doEverythingTimeout - jQuery loaded');
+					const banner =  new Banner();
+					const url = window.location.pathname;
 
-					const banner = new Banner();
-					main.appendNewStyle();
+					if (url.includes('/uk/smartphones/galaxy-s22/showroom/') || url.includes('/uk/smartphones/galaxy-s22-ultra/showroom/')) {
 
-					const observer = new MutationObserver((mutations, obs) => {
-							const eleToLoad = document.querySelector("#content > div.hubble-feature-wrapper");
-							if (eleToLoad) {
 									banner.addSection();
 									banner.createSlider();
 									banner.showPopUp();
 									banner.addFooter();
-									main.addElements();
+
+					} else {
+						const observer = new MutationObserver((mutations, obs) => {
+
+							const eleToLoad = document.querySelector("#content > div.hubble-feature-wrapper");
+							if (eleToLoad) {
+
+									banner.addSection();
+									banner.createSlider();
+									banner.showPopUp();
+									banner.addFooter();
 									obs.disconnect();
 									return;
 							}
 						});
+
 						observer.observe(document.querySelector("#content > div.hubble-feature-wrapper"), {
 							childList: true,
 							subtree: true
 						})
-					// banner.addSection();
-					// banner.createSlider();
-					// banner.showPopUp();
-					// banner.addFooter();
-					// main.addElements();
+					}
+
+					main.appendNewStyle();
+					main.addElements();
 
 				} else {
 					console.log('no jquery')
@@ -110,16 +117,6 @@ cheillondon.targetBoilerplate = (function () {
 		// ==========================================================================
 		addElements: function () {
 			//this is only for the initial page load
-
-			const allslicks = document.querySelectorAll('.slick-slide')
-
-			allslicks.forEach(function (slick) {
-				slick.style.cssText = `
-				width: 198px;
-				`
-			})
-
-
 
 		},
 

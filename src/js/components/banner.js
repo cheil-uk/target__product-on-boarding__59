@@ -47,7 +47,7 @@ export default class Banner {
     showroomContainer.insertAdjacentElement('afterend', tipsAndTricks);
     anchorEle.style.display = 'none';
     } else {
-    //  console.log(accodionSection)
+     console.log(accodionSection)
     accodionSection.insertAdjacentElement('afterend', tipsAndTricks);
     }
 
@@ -245,15 +245,30 @@ export default class Banner {
   }
 
   showPopUp() {
+
+    const tagging = (el, attrs) => {
+    for(let key in attrs) {
+      el.setAttribute(key, attrs[key]);
+    }
+  }
+
     const popUpContent = new PopUpContent();
     const allPlayButtons = document.querySelectorAll('.play-svg');
+
     allPlayButtons.forEach(button => {
+
+      this.tagging(button,
+      { "data-omni-type"  : "microsite",
+        "data-omni"       : `uk:59:buy-page:video-play:on-boarding`,
+        "ga-ac"           : "pd buying tool",
+        "ga-ca"           : "option click",
+        "ga-la"           : `tariff:apply`
+      });
+
       button.addEventListener('click', (event) => {
-
         popUpContent.openPopUp(event.path[3].children[2].children[2].attributes[0].value);
-
-
       })
+
     })
   }
 
@@ -262,7 +277,7 @@ export default class Banner {
     const showRooomFooter = document.querySelector(".footer-left");
     const buyPageFooter = document.querySelector('.hubble-price-bar-disclaimer-text');
     const showroomFooterContent = document.createElement('p');
-    showroomFooterContent.innerHTML = `slide to learn more`;
+    showroomFooterContent.innerHTML = ``;
 
     if (url.includes('/uk/smartphones/galaxy-s22/showroom/') || url.includes('/uk/smartphones/galaxy-s22-ultra/showroom/')) {
     showRooomFooter.append(showroomFooterContent);
